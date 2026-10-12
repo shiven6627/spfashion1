@@ -1,0 +1,96 @@
+.about-fashion {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 70px auto 60px;
+  padding: 45px 70px;
+
+  box-sizing: border-box;
+
+  background: #fafafa;
+
+  font-family: "Poppins", sans-serif;
+
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.about-fashion h2 {
+  margin: 0 0 25px;
+
+  color: #111;
+
+  text-align: center;
+
+  font-size: 28px;
+  line-height: 1.4;
+
+  font-weight: 600;
+}
+
+.about-fashion h2 span {
+  color: #df1764;
+}
+
+.about-fashion p {
+  margin: 0 0 20px;
+
+  color: #555;
+
+  font-size: 13px;
+
+  line-height: 1.9;
+
+  text-align: justify;
+}
+
+.about-fashion p:last-child {
+  margin-bottom: 0;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .about-fashion {
+    margin: 55px auto 50px;
+
+    padding: 40px 35px;
+  }
+
+  .about-fashion h2 {
+    font-size: 24px;
+  }
+
+  .about-fashion p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .about-fashion {
+    margin: 45px auto 40px;
+
+    padding: 30px 20px;
+  }
+
+  .about-fashion h2 {
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+  }
+
+  .about-fashion p {
+    font-size: 11px;
+
+    line-height: 1.8;
+
+    text-align: left;
+
+    margin-bottom: 16px;
+  }
+}

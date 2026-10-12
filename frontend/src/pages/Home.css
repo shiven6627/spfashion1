@@ -1,0 +1,717 @@
+.hero {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-left {
+  position: absolute;
+  left: 6.5%;
+  top: 92px;
+  width: 285px;
+}
+
+.hero-left h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 43px;
+  line-height: 1.35;
+  font-style: italic;
+  font-weight: 700;
+  color: #000;
+}
+
+.hero-left p {
+  margin: 22px 0 0;
+  width: 270px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111;
+}
+
+.hero-right {
+  position: absolute;
+  right: 8.2%;
+  top: 190px;
+  width: 225px;
+}
+
+.hero-right h2 {
+  margin: 0 0 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  line-height: 1.15;
+  font-style: italic;
+  font-weight: 700;
+  color: #000;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  background: #df1764;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.hero-button:hover {
+  background: #c71359;
+}
+.category-row {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 55px;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
+  align-items: end;
+  gap: 16px;
+}
+
+.category-card {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+}
+
+.category-card img {
+  width: 100%;
+  height: 295px;
+  object-fit: cover;
+  object-position: center;
+
+  display: block;
+  margin-bottom: 9px;
+
+  border: 1px solid #e91e63;
+  border-radius: 14px;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.category-card strong {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+/* First card */
+.category-1 img {
+  height: 295px;
+}
+
+/* Second card */
+.category-2 img {
+  height: 315px;
+}
+
+/* Middle card */
+.category-3 {
+  transform: translateY(-5px);
+}
+
+.category-3 img {
+  height: 415px;
+}
+
+/* Fourth card */
+.category-4 img {
+  height: 315px;
+}
+
+/* Fifth card */
+.category-5 img {
+  height: 295px;
+}
+.trusted-title {
+  margin: 0 0 32px;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #df1764;
+}
+
+.sale-banner {
+  width: 100%;
+  height: 555px;
+
+  margin: 0 auto 55px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.sale-copy {
+  position: absolute;
+
+  top: 65px;
+  right: 6%;
+
+  width: 48%;
+  height: calc(100% - 65px);
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale-script {
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-size: 68px;
+  line-height: 1;
+  font-style: italic;
+  font-weight: 600;
+
+  color: #fff;
+
+  margin-bottom: 8px;
+}
+
+.sale-copy h2 {
+  margin: 0;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+.sale-copy h2 span {
+  color: #df1764;
+}
+
+.sale-copy h3 {
+  margin: 52px 0 38px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+.sale-button {
+  width: 295px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #df1764;
+  color: #fff;
+
+  text-decoration: none;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+
+  transition: 0.2s ease;
+}
+
+.sale-button:hover {
+  background: #c91458;
+}
+
+.sale-bottom {
+  margin-top: 38px;
+
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-size: 54px;
+  line-height: 1;
+
+  font-style: italic;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+.new-arrivals {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto 60px;
+
+  display: grid;
+  grid-template-columns: 1fr 1.45fr;
+
+  gap: 32px;
+}
+
+/* Large left image */
+
+.arrival-large {
+  width: 100%;
+  height: 1030px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.arrival-large img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Text on large image */
+
+.large-arrival-text {
+  position: absolute;
+
+  left: 135px;
+  bottom: 65px;
+
+  color: #fff;
+
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-size: 42px;
+  line-height: 1.2;
+
+  font-style: italic;
+  font-weight: 600;
+
+  text-align: center;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+/* Right side grid */
+
+.arrival-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 28px;
+}
+
+/* Product card */
+
+.arrival-card {
+  width: 100%;
+  height: 500px;
+
+  position: relative;
+  overflow: hidden;
+
+  display: block;
+
+  text-decoration: none;
+}
+
+.arrival-card img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: transform 0.3s ease;
+}
+
+.arrival-card:hover img {
+  transform: scale(1.03);
+}
+
+/* White text on product images */
+
+.arrival-text {
+  position: absolute;
+
+  top: 22px;
+  right: 25px;
+
+  width: 125px;
+
+  color: #fff;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  text-shadow:
+    1px 1px 3px rgba(0, 0, 0, 0.7),
+    0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Shop button */
+
+.arrival-button {
+  position: absolute;
+
+  right: 16px;
+  bottom: 18px;
+
+  width: 100px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #df1764;
+  color: #fff;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.heritage-banner {
+  width: 100%;
+  margin: 0 0 60px;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.heritage-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.intro-copy {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.intro-copy p {
+  line-height: 1.8;
+  color: #555;
+}
+
+@media (max-width: 900px) {
+   .hero {
+    height: 480px;
+    background-position: center;
+  }
+
+  .hero-left {
+    left: 5%;
+    top: 65px;
+    width: 250px;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .hero-left p {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .hero-right {
+    right: 5%;
+    top: 170px;
+    width: 190px;
+  }
+
+  .hero-right h2 {
+    font-size: 32px;
+  }
+
+ .category-row {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+  }
+
+  .category-3 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .category-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .category-2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .category-4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .category-5 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .category-card img,
+  .category-1 img,
+  .category-2 img,
+  .category-4 img,
+  .category-5 img {
+    height: 300px;
+  }
+
+  .category-3 img {
+    height: 390px;
+  }
+  
+  @media (max-width: 1000px) {
+  .trusted-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .sale-banner {
+    height: 450px;
+  }
+
+  .sale-copy {
+    top: 45px;
+    right: 3%;
+    width: 50%;
+  }
+
+  .sale-script {
+    font-size: 52px;
+  }
+
+  .sale-copy h2 {
+    font-size: 30px;
+  }
+
+  .sale-copy h3 {
+    margin: 35px 0 28px;
+    font-size: 27px;
+  }
+
+  .sale-button {
+    width: 240px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .sale-bottom {
+    margin-top: 30px;
+    font-size: 42px;
+  }
+}
+  .new-arrivals {
+    grid-template-columns: 1fr;
+    gap: 25px;
+
+    padding: 0 20px;
+  }
+
+  .arrival-large {
+    height: 600px;
+  }
+
+  .arrival-grid {
+    gap: 20px;
+  }
+
+  .arrival-card {
+    height: 300px;
+  }
+
+  .heritage-banner {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+    .hero {
+    height: 620px;
+    background-position: center;
+  }
+
+  .hero-left {
+    left: 25px;
+    top: 35px;
+    width: 210px;
+  }
+
+  .hero-left h1 {
+    font-size: 30px;
+    line-height: 1.25;
+  }
+
+  .hero-left p {
+    width: 200px;
+    font-size: 12px;
+    line-height: 1.45;
+    margin-top: 12px;
+  }
+
+  .hero-right {
+    right: 25px;
+    top: auto;
+    bottom: 45px;
+    width: 180px;
+  }
+
+  .hero-right h2 {
+    font-size: 29px;
+  }
+
+  .hero-button {
+    width: 155px;
+    height: 44px;
+    font-size: 13px;
+  }
+ .category-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .category-1,
+  .category-2,
+  .category-3,
+  .category-4,
+  .category-5 {
+    grid-column: auto;
+    grid-row: auto;
+    transform: none;
+  }
+
+  .category-card img,
+  .category-1 img,
+  .category-2 img,
+  .category-3 img,
+  .category-4 img,
+  .category-5 img {
+    height: 260px;
+  }
+
+  .category-card strong {
+    font-size: 14px;
+  }
+  .new-arrivals {
+    grid-template-columns: 1fr;
+
+    padding: 0 15px;
+  }
+
+  .arrival-large {
+    height: 500px;
+  }
+
+  .arrival-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .arrival-card {
+    height: 230px;
+  }
+
+  .arrival-button {
+    right: 8px;
+    bottom: 8px;
+
+    width: 85px;
+    height: 32px;
+
+    font-size: 10px;
+  }
+  @media (max-width: 650px) {
+  .trusted-title {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .sale-banner {
+    height: 600px;
+
+    background-position: center;
+  }
+
+  .sale-copy {
+    top: 35px;
+    right: 0;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0 20px;
+  }
+
+  .sale-script {
+    font-size: 48px;
+  }
+
+  .sale-copy h2 {
+    font-size: 26px;
+  }
+
+  .sale-copy h3 {
+    margin: 30px 0 25px;
+    font-size: 23px;
+  }
+
+  .sale-button {
+    width: 220px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .sale-bottom {
+    margin-top: 30px;
+    font-size: 38px;
+  }
+}
+  .arrival-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .heritage-banner {
+    margin-bottom: 35px;
+  }
+}

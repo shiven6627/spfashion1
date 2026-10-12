@@ -1,0 +1,230 @@
+.account-page {
+  max-width: 600px;
+  margin: auto;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.account-form {
+  max-width: 420px;
+
+  margin: 40px auto 60px;
+
+  border: 1px solid #eee;
+
+  padding: 35px;
+
+  box-sizing: border-box;
+
+  background: #fff;
+}
+
+.account-form h2 {
+  text-align: center;
+
+  margin: 0 0 8px;
+
+  font-size: 22px;
+}
+
+.account-text {
+  text-align: center;
+
+  color: #777;
+
+  font-size: 12px;
+
+  margin: 0 0 25px;
+}
+
+.account-form label {
+  display: block;
+
+  margin: 14px 0;
+
+  font-size: 13px;
+
+  color: #333;
+}
+
+.account-form input {
+  width: 100%;
+
+  height: 42px;
+
+  border: 1px solid #ddd;
+
+  padding: 10px 12px;
+
+  margin-top: 6px;
+
+  outline: none;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 12px;
+}
+
+.account-form input:focus {
+  border-color: var(--pink);
+}
+
+.account-form .btn {
+  margin-top: 8px;
+
+  font-weight: 600;
+}
+
+.account-switch {
+  text-align: center;
+
+  color: #666;
+
+  font-size: 12px;
+
+  margin-top: 20px;
+}
+
+.account-switch button {
+  border: 0;
+
+  padding: 0;
+
+  background: none;
+
+  color: var(--pink);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.account-box {
+  max-width: 520px;
+
+  margin: 40px auto 60px;
+
+  padding: 35px;
+
+  border: 1px solid #eee;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.account-box h2 {
+  margin: 0;
+
+  font-size: 23px;
+}
+
+.account-welcome {
+  color: #777;
+
+  font-size: 13px;
+
+  margin: 8px 0 25px;
+}
+
+.account-details {
+  border-top: 1px solid #eee;
+
+  border-bottom: 1px solid #eee;
+
+  text-align: left;
+}
+
+.account-details div {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px 5px;
+
+  border-bottom: 1px solid #eee;
+}
+
+.account-details div:last-child {
+  border-bottom: 0;
+}
+
+.account-details span {
+  color: #777;
+
+  font-size: 12px;
+}
+
+.account-details strong {
+  font-size: 12px;
+
+  font-weight: 600;
+}
+
+.account-actions {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+
+  margin-top: 25px;
+}
+
+.account-actions .btn,
+.account-actions .outline {
+  text-align: center;
+}
+
+.logout-btn {
+  border: 1px solid #222;
+
+  background: #fff;
+
+  padding: 10px 18px;
+
+  cursor: pointer;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background: #222;
+
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .account-form,
+  .account-box {
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+    padding: 25px 20px;
+  }
+
+  .account-actions {
+    flex-direction: column;
+  }
+
+  .account-actions .btn,
+  .account-actions .outline,
+  .logout-btn {
+    width: 100%;
+  }
+}
+.my-orders{margin-top:28px;border-top:1px solid #e7e0da;padding-top:28px}.orders-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px}.orders-heading h2{margin:0;font-size:24px}.orders-heading p{margin:6px 0 0;color:#777}.orders-list{display:grid;gap:16px}.order-card{border:1px solid #e5ddd6;padding:20px;background:#fff}.order-card-top{display:flex;justify-content:space-between;gap:15px;padding-bottom:15px;border-bottom:1px solid #eee}.order-card-top>div:first-child{display:grid;gap:5px}.order-card-top span{color:#777}.order-total{text-align:right;display:grid;gap:6px}.order-status{display:inline-block;padding:5px 9px;border-radius:999px;background:#f4eee9;font-size:11px;text-transform:uppercase;letter-spacing:.4px}.order-status.delivered{background:#e8f5ea}.order-status.shipped{background:#eaf1fb}.order-status.processing{background:#fff3d9}.order-status.cancelled{background:#fdeaea;color:#a22}.order-items{padding:14px 0;display:grid;gap:8px}.order-items>div{display:flex;justify-content:space-between;gap:10px}.tracking{padding:12px 0 4px}.tracking-line{display:grid;grid-template-columns:repeat(4,1fr);position:relative}.tracking-line:before{content:"";position:absolute;left:12%;right:12%;top:9px;height:2px;background:#ddd}.tracking-step{position:relative;text-align:center;display:grid;justify-items:center;gap:7px;color:#999}.tracking-dot{width:19px;height:19px;border-radius:50%;border:2px solid #ddd;background:#fff;z-index:1}.tracking-step.done .tracking-dot{background:#db2369;border-color:#db2369}.tracking-step.current small{color:#db2369;font-weight:600}.tracking-step.done small{color:#333}.tracking-cancelled{padding:12px;background:#fff3f3;color:#a22}.track-toggle{margin-top:12px;border:0;background:transparent;text-decoration:underline;padding:0;color:#333}.tracking-details{margin-top:15px;padding-top:15px;border-top:1px solid #eee}.tracking-event{display:grid;grid-template-columns:20px 1fr;gap:10px;position:relative;padding-bottom:16px}.tracking-event>span{width:10px;height:10px;border-radius:50%;background:#db2369;margin-top:5px}.tracking-event div{display:grid;gap:3px}.tracking-event small,.tracking-event p{color:#777;margin:0}.delivery-address{display:grid;gap:4px;padding-top:12px;border-top:1px solid #eee}.delivery-address span{color:#777}.orders-empty,.order-error{color:#777}
+@media(max-width:600px){.orders-heading,.order-card-top{align-items:flex-start;flex-direction:column}.order-total{text-align:left}.tracking-line{grid-template-columns:repeat(2,1fr);gap:18px}.tracking-line:before{display:none}.order-card{padding:15px}.order-items>div{font-size:12px}}

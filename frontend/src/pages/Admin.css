@@ -1,0 +1,406 @@
+.admin-wrap {
+    max-width: 1240px;
+    margin: 38px auto;
+    padding: 0 24px 80px;
+    color: #29231f
+}
+
+.admin-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9e2dc;
+    padding-bottom: 24px;
+    margin-bottom: 24px
+}
+
+.admin-head h1 {
+    font-size: clamp(30px, 4vw, 46px);
+    margin: 5px 0
+}
+
+.admin-head p {
+    color: #766b63
+}
+
+.admin-eyebrow {
+    letter-spacing: 2px;
+    font-size: 11px
+}
+
+.admin-stat {
+    background: #f5eee7;
+    padding: 20px 30px;
+    display: grid;
+    text-align: center
+}
+
+.admin-stat b {
+    font-size: 30px
+}
+
+.admin-stat span {
+    color: #766b63
+}
+
+.admin-message {
+    background: #f5eee7;
+    padding: 12px;
+    margin: 15px 0
+}
+
+.analytics-panel,
+.admin-form,
+.admin-catalog {
+    border: 1px solid #e8e0d8;
+    padding: 24px;
+    background: #fff
+}
+
+.analytics-panel {
+    margin-bottom: 28px
+}
+
+.analytics-head,
+.orders-admin-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px
+}
+
+.analytics-head h2,
+.orders-admin-head h2 {
+    margin: 0
+}
+
+.analytics-head p,
+.orders-admin-head p {
+    margin: 5px 0;
+    color: #766b63
+}
+
+.export-btn {
+    border: 0;
+    background: #392a22;
+    color: #fff;
+    padding: 12px 16px;
+    cursor: pointer
+}
+
+.analytics-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 12px;
+    padding: 20px 0
+}
+
+.analytics-controls label {
+    display: grid;
+    gap: 6px;
+    font-size: 12px;
+    color: #766b63
+}
+
+.analytics-controls input,
+.analytics-controls select {
+    padding: 10px;
+    border: 1px solid #ddd1c8;
+    background: #fff;
+    min-width: 135px
+}
+
+.preset-buttons {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap
+}
+
+.preset-buttons button {
+    padding: 10px 12px;
+    border: 1px solid #ddd1c8;
+    background: #fff;
+    text-transform: capitalize
+}
+
+.preset-buttons button.active {
+    background: #31241d;
+    color: #fff
+}
+
+.analytics-cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 24px
+}
+
+.analytics-cards>div {
+    border: 1px solid #eee4dc;
+    padding: 17px;
+    background: #fcfaf8;
+    min-width: 0
+}
+
+.analytics-cards span {
+    display: block;
+    color: #766b63;
+    font-size: 11px
+}
+
+.analytics-cards strong {
+    display: block;
+    font-size: 23px;
+    margin-top: 7px;
+    overflow-wrap: anywhere
+}
+
+.analytics-table-wrap {
+    overflow-x: auto
+}
+
+.analytics-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px
+}
+
+.analytics-table th,
+.analytics-table td {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap
+}
+
+.analytics-table th {
+    background: #faf7f4
+}
+
+.revenue-chart {
+    margin-top: 24px;
+    display: grid;
+    gap: 8px
+}
+
+.chart-row {
+    display: grid;
+    grid-template-columns: 90px 1fr 110px;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px
+}
+
+.chart-row>div {
+    height: 12px;
+    background: #f0ebe6
+}
+
+.chart-row i {
+    display: block;
+    height: 100%;
+    background: #db2369
+}
+
+.admin-columns {
+    display: grid;
+    grid-template-columns: minmax(300px, 430px) 1fr;
+    gap: 28px;
+    align-items: start
+}
+
+.admin-form h2,
+.admin-catalog h2 {
+    margin: 0 0 20px
+}
+
+.admin-form label {
+    display: grid;
+    gap: 7px;
+    font-size: 13px;
+    margin: 14px 0
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ddd1c8;
+    background: #fff;
+    font: inherit;
+    min-width: 0
+}
+
+.admin-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px
+}
+
+.image-mode {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0
+}
+
+.image-mode button,
+.admin-product button {
+    border: 1px solid #d9c8ba;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer
+}
+
+.image-mode .selected {
+    background: #31241d;
+    color: white
+}
+
+.ai-generate,
+.admin-save {
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    background: #392a22;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px 0
+}
+
+.admin-save {
+    background: #9c6848
+}
+
+.admin-preview {
+    width: 100%;
+    max-height: 260px;
+    object-fit: contain;
+    background: #f8f5f2
+}
+
+.admin-product {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee
+}
+
+.admin-product img {
+    width: 66px;
+    height: 78px;
+    object-fit: cover;
+    background: #f7f4f1
+}
+
+.admin-product div {
+    display: grid;
+    gap: 5px;
+    flex: 1;
+    min-width: 0
+}
+
+.admin-product span,
+.admin-product small {
+    font-size: 13px;
+    color: #756b63
+}
+
+.admin-product button {
+    color: #a02d2d
+}
+
+.admin-orders {
+    margin-top: 28px
+}
+
+.admin-orders select {
+    max-width: 160px;
+    padding: 9px;
+    border: 1px solid #ddd1c8;
+    background: #fff
+}
+
+.orders-admin-head {
+    margin-bottom: 10px
+}
+
+.orders-admin-head>strong {
+    color: #766b63
+}
+
+@media(max-width:1000px) {
+    .analytics-cards {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media(max-width:760px) {
+    .admin-wrap {
+        padding: 0 14px 55px
+    }
+
+    .admin-columns {
+        grid-template-columns: 1fr
+    }
+
+    .admin-head {
+        align-items: flex-start;
+        gap: 12px
+    }
+
+    .admin-stat {
+        padding: 12px 18px
+    }
+
+    .analytics-cards {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .analytics-head,
+    .orders-admin-head {
+        align-items: flex-start;
+        flex-direction: column
+    }
+
+    .analytics-controls {
+        align-items: stretch
+    }
+
+    .chart-row {
+        grid-template-columns: 70px 1fr 80px
+    }
+
+    .admin-product {
+        align-items: flex-start
+    }
+
+    .admin-product img {
+        width: 54px;
+        height: 64px
+    }
+
+    .admin-product select {
+        max-width: 130px
+    }
+
+    .admin-row {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(max-width:450px) {
+    .analytics-cards {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .analytics-cards strong {
+        font-size: 18px
+    }
+
+    .export-btn {
+        width: 100%
+    }
+}

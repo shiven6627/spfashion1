@@ -1,0 +1,342 @@
+.testimonials {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 70px auto;
+  padding: 0 25px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+
+.testimonial-title {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 35px;
+}
+
+.testimonial-title span {
+  height: 1px;
+
+  background: #777;
+
+  flex: 1;
+}
+
+.testimonial-title h2 {
+  margin: 0;
+
+  white-space: nowrap;
+
+  color: #111;
+
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.testimonial-title strong {
+  color: #df1764;
+  font-weight: 600;
+}
+
+.testimonial-subtitle {
+  margin: 10px 0 35px;
+
+  text-align: center;
+
+  color: #777;
+
+  font-size: 14px;
+}
+
+/* Slider */
+
+.testimonial-slider {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.testimonial-window {
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.testimonial-track {
+  display: flex;
+
+  transition: transform 0.5s ease;
+}
+
+/* Cards */
+
+.testimonial-card {
+  position: relative;
+
+  box-sizing: border-box;
+
+  flex: 0 0 calc(33.333333% - 17px);
+
+  min-height: 280px;
+
+  margin-right: 25px;
+
+  padding: 35px 28px 25px;
+
+  background: #fff;
+
+  border: 1px solid #eeeeee;
+
+  border-radius: 6px;
+
+
+  transition: 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.11);
+}
+
+/* Quote */
+
+.quote-mark {
+  position: absolute;
+
+  top: 8px;
+  right: 20px;
+
+  color: #df1764;
+
+  font-family: Georgia, serif;
+
+  font-size: 65px;
+
+  line-height: 1;
+
+  opacity: 0.15;
+}
+
+/* Stars */
+
+.stars {
+  margin-bottom: 15px;
+
+  color: #df1764;
+
+  font-size: 17px;
+
+  letter-spacing: 3px;
+}
+
+/* Review */
+
+.testimonial-text {
+  margin: 0;
+
+  min-height: 105px;
+
+  color: #555;
+
+  font-size: 13px;
+
+  line-height: 1.8;
+}
+
+/* Customer */
+
+.customer-info {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 22px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid #eeeeee;
+}
+
+.customer-avatar {
+  width: 43px;
+  height: 43px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #df1764;
+
+  color: #fff;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.customer-info h3 {
+  margin: 0;
+
+  color: #111;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+.customer-info p {
+  margin: 2px 0 0;
+
+  color: #888;
+
+  font-size: 11px;
+}
+
+/* Arrows */
+
+.testimonial-arrow {
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #df1764;
+
+  border-radius: 50%;
+
+  background: #fff;
+
+  color: #df1764;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.testimonial-arrow:hover:not(:disabled) {
+  background: #df1764;
+
+  color: #fff;
+}
+
+.testimonial-arrow:disabled {
+  opacity: 0.3;
+
+  cursor: not-allowed;
+}
+
+/* Dots */
+
+.testimonial-dots {
+  margin-top: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+
+  padding: 0;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  background: #ddd;
+
+  cursor: pointer;
+}
+
+.dot.active {
+  width: 22px;
+
+  border-radius: 10px;
+
+  background: #df1764;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .testimonial-title {
+    gap: 20px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 26px;
+  }
+
+  .testimonial-card {
+    flex: 0 0 calc(50% - 12px);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .testimonials {
+    margin: 50px auto;
+
+    padding: 0 15px;
+  }
+
+  .testimonial-title {
+    gap: 12px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 20px;
+  }
+
+  .testimonial-subtitle {
+    font-size: 12px;
+
+    margin-bottom: 25px;
+  }
+
+  .testimonial-card {
+    flex: 0 0 100%;
+
+    margin-right: 15px;
+
+    min-height: 270px;
+
+    padding: 30px 22px 22px;
+  }
+
+  .testimonial-arrow {
+    width: 35px;
+    height: 35px;
+
+    font-size: 15px;
+  }
+
+  .testimonial-slider {
+    gap: 8px;
+  }
+}

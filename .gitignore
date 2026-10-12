@@ -1,0 +1,11 @@
+# Dependencies and build outputs
+**/node_modules/
+frontend/dist/
+
+# Secrets
+backend/.env
+frontend/.env.local
+
+# Uploaded files (keep placeholder)
+backend/uploads/*
+!backend/uploads/.gitkeep
